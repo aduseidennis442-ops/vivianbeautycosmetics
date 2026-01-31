@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Vivian Beauty Cosmetics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar-top">
+                <a class="brand" href="index.html"><img src="img/Vivian Beauty.png" alt="VIVIAN CUSMETICS"> 
+                <span style="font-weight: 600; color: #fff;">Vivian Beauty Cosmetics</span></a>
+
+                <nav class="desktop" aria-label="Primary navigation">
+                    <ul class="nav-ul">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Account</a></li>
+                    </ul>
+                </nav>
+
+                <label class="nav-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">☰</label>
+            </div>
+
+            <div id="mobile-menu" class="mobile-nav" aria-hidden="true">
+                <nav aria-label="Mobile primary navigation">
+                    <ul class="nav-ul">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Account</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="site-main">
+        <section class="hero" aria-label="Hero">
+            <video class="hero-video" autoplay muted loop playsinline poster="vid/vid card (1).jpg">
+                <source src="vid/Sauvage Eau Forte - TVC Complementary(720P_HD).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-dim" aria-hidden="true"></div>
+            <div class="hero-overlay">
+                <h1 class="hero-title" style="color: yellow;">Discover Vivian Beauty Cosmetics</h1>
+                <p class="hero-sub">Beautiful cosmetics &amp; self care — shop our latest collection.</p>
+                <p style="margin-top:0.9rem"><a class="btn btn-primary" href="shop.html">Shop Now</a></p>
+            </div>
+        </section>
+
+        <!-- Sliding images -->
+        <section id="slider">
+            <h4 style="text-align: center; padding: 2rem 2rem; margin: 0; font-size: 1.35rem; color: rgb(255, 255, 255); background: rgb(0, 140, 255);">New Arrivals</h5>
+                <div class="slider-container">
+                    <button class="nav-btn left" type="button" aria-label="Scroll left" 
+                    onclick="scrollSlider(-1)">&#10094;</button>
+                <div class="slider" id="productSlider">
+            <div class="product-card">
+                <a href="#"><img src="img/Perfumes/Perfumes (3).jpg" alt="Dolores"><br></a>
+                <h4>Dolores Purfume</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">250.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/Perfumes/Perfume 10.jpg" alt="Now Perfume"></a>
+                <h4>Now Perfume</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">200.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/Perfumes/Perfumes (7).jpg" alt="Creed Perfume"></a>
+                <h4>Creed Perfume</h4><br></a>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">300.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/Cosmetics/AXE Excite.jpg" alt="Axe Excite"></a>
+                <h4>Axe Excite</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">50.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/Cosmetics/Argan oil shampoo.jpg" alt="Argan oil shampoo"></a>
+                <h4>Argan oil shampoo"</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">250.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/Pomades/Olaybact Kids & Teens Lotion .jpg" alt="Olaybact Kids & Teens Lotion"></a>
+                <h4>Olaybact Kids & Teens Lotion</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">80.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/Pomades/Fair Child Yellow.jpg" alt="Fair Child Yellow"></a>
+                <h4>Fair Child Yellow</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">60.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/Pomades/Fair Child Orange.jpg" alt="Fair Child Lotion"></a>
+                <h4>Fair Child Lotion</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">60.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/Pomades/Fair Child Pink.jpg" alt="Fair Child Lotion"></a>
+                <h4>Fair Child Lotion</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">60.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-card">
+                <a href="#"><img src="img/Perfumes/Perfumes (9).jpg" alt="Sauvage"></a>
+                <h4>Sauvage</h4><br>
+                <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">200.00</span></p><br>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+
+            <button class="nav-btn right" type="button" aria-label="Scroll right" 
+            onclick="scrollSlider(1)">&#10095;</button>
+            </div>
+        </section>
+
+
+        <!-- product section -->
+        <section id="items">
+            <h4 style="text-align: center; padding: 2rem 2rem; margin: 0; font-size: 1.35rem; background-color: rgb(0, 140, 255); color: rgb(255, 255, 255);">Products Showcase</h4>
+            <div class="items-grid">
+                <div class="items-card">
+                    <a href="#"><img src="img/Shower Gels/Golden Glow Exfoliating.jpg" alt="Golden Glow Exfoliating"></a>
+                    <h4>Golden Glow Exfoliating</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">150.00</span></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="items-card">
+                    <a href="#"><img src="img/Cosmetics/Caro White.jpg" alt="Caro White"></a>
+                    <h4>Caro White</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">100.00</span></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="items-card">
+                    <a href="#"><img src="img/Cosmetics/CeraVe.jpg" alt="CeraVe"></a>
+                    <h4>CeraVe</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">350.00</span></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="items-card">
+                    <a href="#"><img src="img/Cosmetics/Deep Cleansing Charcoal Peel-Off Mask for Blackhead Removal.jpg" alt="Deep Cleansing Charcoal Peel-Off Mask"></a>
+                    <h4>Deep Cleansing Charcoal Peel-Off Mask</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">100.00</span></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="items-card">
+                    <a href="#"><img src="img/Cosmetics/DIOR Sauvage Shower Gel.jpg" alt="DIOR Sauvage"></a>
+                    <h4>DIOR Sauvage</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">200.00</span></p></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="items-card">
+                    <a href="#"><img src="img/Cosmetics/Dove Body Wash.jpg" alt="Dove Body Wash"></a>
+                    <h4>Dove Body Wash</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">200.00</span></p></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="items-card">
+                    <a href="#"><img src="img/Cosmetics/Dove men +care.jpg" alt="Dove men +care"></a>
+                    <h4>Dove men +care</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">200.00</span></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="items-card">
+                    <a href="#"><img src="img/Shower Gels/download.jpg" alt="Friuser Gel"></a>
+                    <h4>Friuser Gel</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">80.00</span></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="items-card">
+                    <a href="#"><img src="img/Cosmetics/Easy Glow Shower Ge, Lotion And Face Cream.jpg" alt="Easy Glow"></a>
+                    <h4>Easy Glow</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">300.00</span></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="items-card">
+                    <a href="#"><img src="img/Shower Gels/K Brothers Shower Gel.jpg" alt="K. Brothers Shower Gel"></a>
+                    <h4>K. Brothers Shower Gel</h4><br>
+                    <p>GH&#8373; <span style="color: tomato; font-size: 1rem; font-weight: bold;">80.00</span></p><br>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                
+            </div>
+        </section>
+        <hr>
+    </main>
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-col">
+                <a class="brand" href="index.html"><img src="img/Vivian Beauty.png" alt="Vivian Beauty Cosmetics" style="height:36px;"></a><br>
+                <p><strong style="color: #fff">Vivian Cosmetics</strong><br>Quality products, fair prices, fast local delivery across Ghana.</p><br>
+                <div class="newsletter">
+                    <h4 style="margin-top:0.6rem">Subscribe</h4>
+                    <form id="newsletterForm" class="newsletter-form" action="#" novalidate>
+                        <input id="newsletterEmail" type="email" placeholder="Your email address" aria-label="Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <small id="newsletterMsg" style="display:none;color:#9aa4b2;margin-top:0.4rem;"></small>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Customer Support</h4>
+                <ul class="footer-links">
+                    <li><a href="help.html">Help Center</a></li>
+                    <li><a href="contact.html">Chat with us</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="#">Delivery & Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Useful Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#">How to buy</a></li>
+                    <li><a href="#">Service Centers</a></li>
+                    <li><a href="#">Corporate & Bulk</a></li>
+                    <li><a href="#">Report a Product</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Sell With Us</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Sell on Vivian Beauty Cosmetics</a></li>
+                    <li><a href="#">Vendor Hub</a></li>
+                    <li><a href="#">Service Charges</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <div class="payments">
+                <small style="color:#fff;margin-right:0.5rem">Payment methods:</small>
+                <img src="img/logos/visa.jpg" alt="Visa" style="height:22px;opacity:0.95;">
+                <img src="img/logos/mastercard.png" alt="Mastercard" style="height:22px;opacity:0.95;">
+                <img src="img/logos/momo.jpeg" alt="Mobile Money" style="height:22px;opacity:0.95;">
+            </div>
+            <div class="socials">
+                <small style="color:#fff;margin-right:0.5rem">Follow us:</small>
+                <a href="www.facebook.com"><img src="img/logos/facebook.png" alt="Facebook"></a>
+                <a href="www.x.com"><img src="img/logos/twitter.png" alt="Twitter"></a>
+                <a href="www.instagram.com"><img src="img/logos/instagram.png" alt="Instagram"></a>
+            </div>
+            <div style="width:100%;text-align: center;color:#fff; margin-top:0.6rem" >&copy; 2026 Vivian Beauty Cosmetics. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
